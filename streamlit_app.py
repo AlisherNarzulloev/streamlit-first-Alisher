@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
+import numpy as np
 
 with st.expander('Data'):
   st.write('**Raw data**')
